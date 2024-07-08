@@ -154,3 +154,20 @@ text-shadow:
 #p3{
     width: 60%;
 }
+
+.todo{
+    display: block;
+}
+.c{
+    display: none;
+}
+@media (max-width: 600px){
+    .c{
+        display: block;
+        color: red;
+        font-family: "halo", sans-serif;
+    }
+    .todo{
+        display: none;
+    }
+}

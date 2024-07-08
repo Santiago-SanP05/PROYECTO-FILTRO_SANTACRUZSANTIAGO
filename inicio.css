@@ -141,6 +141,7 @@ text-shadow:
     font-size: 1.2em;
     width: 70%;
     height: 40%;
+    overflow: hidden;
 }
 .container .dere{
     margin-left: 10vh;
@@ -221,4 +222,20 @@ text-shadow:
     align-items: center;
     justify-content: center;
     backdrop-filter: blur(10px);
+}
+.todo{
+    display: block;
+}
+.c{
+    display: none;
+}
+@media (max-width: 850px){
+    .c{
+        display: block;
+        color: red;
+        font-family: "halo", sans-serif;
+    }
+    .todo{
+        display: none;
+    }
 }
