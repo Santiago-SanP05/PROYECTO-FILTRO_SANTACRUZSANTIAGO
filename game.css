@@ -1,0 +1,128 @@
+@keyframes img{
+    0%{ background: url(/multimedia/imagenes/a-captivating-dark-themed-wallpaper-featuring-the--hl3WiV8lTxSufCem-2qzxQ-BFvNg75mSsSqqfaWu7XxXw.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;}
+    25%{ background: url(/multimedia/imagenes/a-captivating-wallpaper-featuring-the-master-chief-sAdMJ6ODQwmHnO-4ws2v9A-BFvNg75mSsSqqfaWu7XxXw.jpeg)no-repeat;
+        background-size: cover;
+        background-position: center;}
+    50%{ background: url(/multimedia/imagenes/a-striking-and-detailed-digital-illustration-of-ma-Q1StTKw4QHmFgiyFfruYog-djqFjzm1THKZuQOL2BK66Q.jpeg)no-repeat;
+        background-size: cover;
+        background-position: center;}
+    100%{ background: url(/multimedia/imagenes/a-stunning-dark-themed-wallpaper-featuring-the-mas-OrdCqIIRQjW58Gl_LvQ1AA-BFvNg75mSsSqqfaWu7XxXw.jpeg)no-repeat;
+        background-size: cover;
+        background-position: center;}
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    margin: 0;
+    left: 0;
+    position: relative;
+    min-height: 100vh;
+ }
+
+
+
+.fondo{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.navegador{
+    position: absolute;
+    z-index: 100;
+    display: none;
+    animation: img 5s linear infinite;
+    width: 10%;
+    height: 100vh;
+    background: #003692;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85%;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+}
+.logo .face{
+    margin-top: 2vh;
+    border-radius: 100%;
+    background: url(/multimedia/imagenes/d74a20c79f9a02ae7c4962e4ad1ec6ca.jpg);
+    background-position: center;
+    width: 69%;
+    height: 69%;
+    border: 2px solid rgb(75, 75, 75);
+    transition: .4s;
+}
+.logo .face:hover{
+    border: 3px solid white;
+}
+.list_nav a{
+    padding: 1vh;
+    text-decoration: none;
+    margin-bottom: 3.5vh;
+    display: flex;
+    justify-content: center;
+    transition: .4s;
+    color:white;
+}
+.list_nav a:hover, #active{
+color: #0070e0;
+text-shadow: 
+0px 5px 10px #afccff,
+0px 5px 10px #003692,
+0px 5px 10px #001c4c;
+}
+    
+.list_nav .small{
+    font-size: 1.2em;
+}
+.list_nav .small:hover{
+    font-size: 1.7em;
+}
+.list_nav .half{
+    font-size: 1.6em;
+}
+.list_nav .half:hover{
+    font-size: 2.1em;
+}
+.list_nav .big{
+    font-size: 2em;
+}
+.list_nav .big:hover{
+    font-size: 2.5em;
+}
+.container{
+    
+    width: 100%;
+    height: 100vh;
+    border:2px solid red;
+}
+img{
+    width: 5vh;
+}
