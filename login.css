@@ -25,7 +25,7 @@ h2{
     font-family: "halo", sans-serif;
     font-size: 2.7em;
     color: #0c00b7;
-    text-shadow: 0 10px 15px #0c00b7;
+    text-shadow: 0 10px 15px #0720fd73;
     text-align: center;
 }
 .input-group{
@@ -67,12 +67,19 @@ h2{
 }
 p{
     font-size: 1.3em;
-    color:rgb(13, 13, 26);
+    color:rgba(177, 189, 204, 0.966);
 }
 .registro-link{
     text-decoration: none;
-    color: #000;
+    color: #666666;
     font-weight: 600;
+}
+.return{
+    font-family: "halo outline", sans-serif;
+    font-size: 2em;
+    color: rgba(168, 168, 255, 0.705);
+    text-decoration: none;
+
 }
 
 

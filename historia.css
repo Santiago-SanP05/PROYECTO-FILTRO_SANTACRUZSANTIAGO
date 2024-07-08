@@ -70,7 +70,7 @@
     display: flex;
     justify-content: center;
     transition: .4s;
-    color:black;
+    color:rgb(128, 128, 128);
 }
 .list_nav a:hover, #active{
 color: #0070e0;
@@ -81,22 +81,22 @@ text-shadow:
 }
     
 .list_nav .small{
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 .list_nav .small:hover{
-    font-size: 1.7em;
+    font-size: 1.9em;
 }
 .list_nav .half{
-    font-size: 1.6em;
+    font-size: 1.9em;
 }
 .list_nav .half:hover{
-    font-size: 2.1em;
+    font-size: 2.3em;
 }
 .list_nav .big{
-    font-size: 2em;
+    font-size: 2.3em;
 }
 .list_nav .big:hover{
-    font-size: 2.5em;
+    font-size: 2.6em;
 }
 .container{
     position: absolute;

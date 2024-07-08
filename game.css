@@ -12,9 +12,6 @@
         background-size: cover;
         background-position: center;}
 }
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -29,18 +26,15 @@
     background-size: cover;
     background-position: center;
 }
-
-
-
-
 .navegador{
     position: absolute;
     z-index: 100;
     display: flex;
-    animation: img 5s linear infinite;
+    backdrop-filter: blur(10px);
     width: 10%;
     height: 100vh;
-    background: #003692;
+    background: rgba(53, 51, 51, 0.753);
+    border:2px solid rgba(0, 204, 255, 0.548);
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -76,16 +70,17 @@
     border: 3px solid white;
 }
 .list_nav a{
-    padding: 1vh;
+    padding: 1vh 5vh 1vh 1vh;
     text-decoration: none;
     margin-bottom: 3.5vh;
     display: flex;
     justify-content: center;
+    color: white;
     transition: .4s;
-    color:white;
 }
 .list_nav a:hover, #active{
 color: #0070e0;
+border-right: 3px solid rgba(113, 133, 245, 0.432);
 text-shadow: 
 0px 5px 10px #afccff,
 0px 5px 10px #003692,
@@ -93,22 +88,22 @@ text-shadow:
 }
     
 .list_nav .small{
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 .list_nav .small:hover{
-    font-size: 1.7em;
+    font-size: 1.9em;
 }
 .list_nav .half{
-    font-size: 1.6em;
+    font-size: 1.9em;
 }
 .list_nav .half:hover{
-    font-size: 2.1em;
+    font-size: 2.3em;
 }
 .list_nav .big{
-    font-size: 2em;
+    font-size: 2.3em;
 }
 .list_nav .big:hover{
-    font-size: 2.5em;
+    font-size: 2.6em;
 }
 .container{
     display: flex;
@@ -116,7 +111,7 @@ text-shadow:
     width: 100%;
     height: 100vh;
     border:2px solid rgba(0, 204, 255, 0.548);
-    overflow: scroll;
+    overflow: hidden scroll;
 
 
 }

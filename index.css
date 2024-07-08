@@ -6,7 +6,7 @@
 
 
 .fondo{
-    background: url(/multimedia/imagenes/Captura\ de\ pantalla\ 2024-07-07\ 101436.png);
+
     background-size: cover;
     background-position: center;
     position: relative;
@@ -17,6 +17,7 @@
     align-items: center;
     overflow: hidden;
 }
+.noVisible
 .difuminado{
     width: 100%;
     filter: blur(2px);
