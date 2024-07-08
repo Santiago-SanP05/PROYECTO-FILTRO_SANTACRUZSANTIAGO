@@ -25,26 +25,18 @@
     left: 0;
     position: relative;
     min-height: 100vh;
- }
-
-
-
-.fondo{
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    justify-content: center;
-    align-items: center;
+    background: url(/multimedia/imagenes/a-captivating-wallpaper-featuring-the-master-chief-sAdMJ6ODQwmHnO-4ws2v9A-BFvNg75mSsSqqfaWu7XxXw.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
 
 
 
 .navegador{
     position: absolute;
     z-index: 100;
-    display: none;
+    display: flex;
     animation: img 5s linear infinite;
     width: 10%;
     height: 100vh;
@@ -52,6 +44,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: .2s;
 }
 .navbar{
     width: 100%;
@@ -118,11 +111,71 @@ text-shadow:
     font-size: 2.5em;
 }
 .container{
-    
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100vh;
-    border:2px solid red;
+    border:2px solid rgba(0, 204, 255, 0.548);
+    overflow: scroll;
+
+
+}
+.titulo{
+    font-family: "halo", sans-serif;
+    color: rgba(255, 255, 255, 0.603);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3em;
+    margin-top: 2vh;
 }
 img{
-    width: 5vh;
+    width: 30vh;
+    height: 34vh;
+    margin-right: 20vh;
+    border: 2px solid rgba(0, 204, 255, 0.329);
+    padding: 2vh 3vh 3vh 3vh;
+    border-radius: 10%;
+    backdrop-filter: blur(10px);
+    transition: .4s;
+}
+img:hover{
+    padding: 3vh 4vh 4vh 4vh;
+    backdrop-filter: hue-rotate(90deg);
+
+}
+.fila1{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+    margin-top: 6vh;
+
+}
+.fila2{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+    margin-top: 10vh;
+}
+.fila3{
+    display: flex;
+    justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+    margin-top: 10vh;
+
+}
+.fila4{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+    margin-top: 10vh;
+
 }
