@@ -129,7 +129,7 @@ text-shadow:
     margin-top: 6vh;
     height: 100%;
     margin: 3vh;
-    color: rgb(123, 126, 133);
+    color: rgb(219, 223, 238);
 }
 .espacio2:hover{
     backdrop-filter: blur(6px);
@@ -145,6 +145,9 @@ text-shadow:
 .container .espacio .espacio2 img{
     width: 10%;
 }
+img{
+    height: 30vh;
+}
 #p1{
     width: 60%;
 }
@@ -153,6 +156,10 @@ text-shadow:
 }
 #p3{
     width: 60%;
+}
+#p4{
+    width: 60%;
+    margin-bottom: 4vh;
 }
 
 .todo{
