@@ -77,3 +77,4 @@ Estilo y Fuente:
 
 Utiliza hojas de estilo externas (historia.css) para el diseño, y fuentes específicas de Halo para mantener la coherencia visual.
 Ambas páginas están diseñadas para ofrecer una experiencia inmersiva y detallada sobre el universo y la historia de Halo, utilizando elementos multimedia, estilos visuales coherentes y navegación intuitiva para los usuarios.
+Hecho por [SANTIAGO SANTACRUZ PINZON](https://github.com/Santiago-SanP05)
