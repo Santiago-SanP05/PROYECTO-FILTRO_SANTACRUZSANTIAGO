@@ -1,3 +1,4 @@
+# HALO
 • Este es una página creada con el ánimo de brindar nostalgia a los usuarios de Xbox con la saga más reconocida "Halo"
 • Se requería iniciar un usuario para entrar a un chat entre personas usuarios de Microsoft y amantes a esta saga, para ganar logros y para crear clanes y jugar batallas online, así como poder conocer a personas a lo largo del mundo, está herramienta Te ayudará a tener organizado tus juegos mostrando un rendimiento de tus aplicaciones en el dispositivo.
 --Cabe aclarar que está página aún está en proceso de elaboración por lo que le hace falta estás funciones--
@@ -11,7 +12,7 @@
 ---Book
 
 
-• Login
+## Login
 Este será la herramienta donde se hace inicio de sesión para poder ver logros obtenidos y también para tener tus chats con las personas con las que quieras tener contacto.
 Si quieres crear un usuario siempre puedes pulsar el link Register, para poder crear un usuario, deberás dar tu name tag, correo de Microsoft, y después responder unas preguntas propias para restablecer la contraseña en caso de perdida.
 Y si tienes que iniciar seción y no recuerdas la contraseña o usuario siempre puedes marcar la opción -Forgot password- para hacerte pregunta que previamente debes responder a la hora de crear un usuario con esto se reconocerá tu identidad y podrás restablecer tu contraseña 
@@ -19,18 +20,18 @@ Y si tienes que iniciar seción y no recuerdas la contraseña o usuario siempre 
 
 
 
-• Home
+## Home
 Está parte quiera dar una pequeña introducción a la página para que sirve y en que ayuda, también proporcionando a las personas que no sepan mada de halo les de una pequeña intro de lo que es el juego acompañado de 3 videos que aumentaran el conocimiento a las personas que deseen saber más sobre el juego 
 
 
 
-• Game
+## Game
 Tenemos el espacio de Game, por lo pronto este nos dirigirá a la página de Microsoft Halo Máster Chieft Collection Haciendo alusión a qué próximamente se desplegará un menu con los juegos disponibles a jugar en tu dispositivo, con un acceso miniatura a la parte del chat de audio para ingresar hablando a una partida multijugador cooperativa o modo Vs, o bien está opción se puede dejar en muted
 "Recordamos que está funcion aún está en proceso de creación"
 
 
 
-• Book
+## Book
 Para las persona que quieran saber sobre la historia de halo y su protagonista Jhon-117 está sección brindará un pequeño resumen de lo que es Halo y toda su saga de juegos resumidas en pequeñas palabras, Explicando cosas que aparecen en juegos y casi no se muestran por internet
  Mas tecnico
 
