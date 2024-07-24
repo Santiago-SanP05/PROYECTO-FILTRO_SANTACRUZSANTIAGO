@@ -3,13 +3,13 @@
 • Se requería iniciar un usuario para entrar a un chat entre personas usuarios de Microsoft y amantes a esta saga, para ganar logros y para crear clanes y jugar batallas online, así como poder conocer a personas a lo largo del mundo, está herramienta Te ayudará a tener organizado tus juegos mostrando un rendimiento de tus aplicaciones en el dispositivo.
 --Cabe aclarar que está página aún está en proceso de elaboración por lo que le hace falta estás funciones--
 •  tiene 5 menus,
-
-
-
----Login
----Home
----Game
----Book
+|--|--|
+|PAGINA| LO QUE HACE |
+|--|--|
+|Login| Propone una mini intro a la pagina|
+|Home| propone las opciones y contenido de la pagina|
+|Game| Propone los juegos disponibles|
+|Book| Propone Historia del juego |
 
 
 ## Login
@@ -37,7 +37,7 @@ Para las persona que quieran saber sobre la historia de halo y su protagonista J
 
 
 
-• Página 1: inicio.html
+* Página 1: inicio.html
 Descripción:
 Este archivo HTML está diseñado como una página principal dedicada al universo de Halo, el popular juego de Xbox.
 
